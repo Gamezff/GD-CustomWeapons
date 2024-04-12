@@ -42,35 +42,36 @@
 ## OX INVENTORY (ADD THIS IN ox_inventory/data/weapons.lua)
 
 ```
--- MELLE
-['WEAPON_dildo']                 = {label = 'Dildo',            weight = 500,   durability = 0.1,},
-['weapon_sledgehammer']          = {label = 'Sledgehammer',     weight = 500,   durability = 0.1,},
-['weapon_katana']                = {label = 'Katana',           weight = 500,   durability = 0.1,},
-['weapon_keyboard']              = {label = 'keyboard',         weight = 500,   durability = 0.1,},
-['weapon_riftedge']              = {label = 'Riftedge',         weight = 500,   durability = 0.1,},
-['weapon_krambit']               = {label = 'Krambit',          weight = 500,   durability = 0.1,},
-['weapon_sword']                 = {label = 'Sword',            weight = 500,   durability = 0.1,},
-
+--THROWABLES
+['WEAPON_M67']              = {label = 'M67',          weight = 149,    throwable = true,},
+-- MELEE
+['WEAPON_DILDO']            = {label = 'Dildo',        weight = 500,    durability = 0.1,},
+['WEAPON_SLEDGEHAMMER']     = {label = 'Sledgehammer', weight = 500,    durability = 0.1,},
+['WEAPON_KATANA']           = {label = 'Katana',       weight = 500,    durability = 0.1,},
+['WEAPON_KEYBOARD']         = {label = 'keyboard',     weight = 500,    durability = 0.1,},
+['WEAPON_RIFTEDGE']         = {label = 'Riftedge',     weight = 500,    durability = 0.1,},
+['WEAPON_KRAMBIT']          = {label = 'Krambit',      weight = 500,    durability = 0.1,},
+['WEAPON_SWORD']            = {label = 'Sword',        weight = 500,    durability = 0.1,},
 -- WEAPONS
-['WEAPON_beanbag'] 			= { label = 'Bean Bag',    weight = 1000,	durability = 0.0,	ammoname = 'ammo-shotgun',},
-['weapon_browning'] 	    = { label = 'Browing',	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
-['weapon_glock22'] 	        = { label = 'GLOCK-22',	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
-['weapon_dp9'] 	            = { label = 'DP9',	       weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
-['weapon_m4a1'] 	        = { label = 'M4A1',	       weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
-['weapon_m45a1'] 	        = { label = 'M45A1',	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
-['weapon_p226'] 	        = { label = 'P226',	       weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
+['WEAPON_BEANBAG'] 			= { label = 'Bean Bag',    weight = 1000,	durability = 0.0,	ammoname = 'ammo-shotgun',},
+['WEAPON_BROWNING'] 	    = { label = 'Browing',	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
+['WEAPON_GLOCK22'] 	        = { label = 'GLOCK-22',	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
+['WEAPON_DP9'] 	            = { label = 'DP9',	       weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
+['WEAPON_M4A1'] 	        = { label = 'M4A1',	       weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
+['WEAPON_M45A1'] 	        = { label = 'M45A1',	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
+['WEAPON_P226'] 	        = { label = 'P226',	       weight = 1000,	durability = 0.0,	ammoname = 'ammo-45',},
 ['WEAPON_UZI'] 			    = { label = 'UZI', 		   weight = 1000,	durability = 0.0,	ammoname = 'ammo-9',},
-['weapon_tec9'] 			= { label = 'TEC-9', 	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-9',},
+['WEAPON_TEC9'] 			= { label = 'TEC-9', 	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-9',},
 ['WEAPON_MAC10'] 			= { label = 'MAC-10', 	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-9',},
 ['WEAPON_MP9'] 			    = { label = 'MP9', 		   weight = 1000,	durability = 0.0,	ammoname = 'ammo-9',},
-['weapon_g18c'] 		    = { label = 'G18-C', 	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-9',},
-['weapon_mp5'] 				= { label = ' MP5', 	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},    
-['weapon_groza'] 		    = { label = ' GROZA', 	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},    
-['weapon_HK416B'] 		    = { label = 'HK416B',      weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},  
-['weapon_vector'] 		    = { label = 'VECTOR',      weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},     
-['weapon_M4'] 		        = { label = 'M4',          weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},     
-['weapon_gepard'] 		    = { label = 'GEPARD',      weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',}, 
-['weapon_draco'] 		    = { label = 'DRACO',       weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},           
+['WEAPON_G18C'] 		    = { label = 'G18-C', 	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-9',},
+['WEAPON_MP5'] 				= { label = 'MP5', 	       weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},
+['WEAPON_GROZA'] 		    = { label = 'GROZA', 	   weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},
+['WEAPON_HK416B'] 		    = { label = 'HK416B',      weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},
+['WEAPON_VECTOR'] 		    = { label = 'VECTOR',      weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},
+['WEAPON_M4'] 		        = { label = 'M4',          weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},
+['WEAPON_GEPARD'] 		    = { label = 'GEPARD',      weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},
+['WEAPON_DRACO'] 		    = { label = 'DRACO',       weight = 1000,	durability = 0.0,	ammoname = 'ammo-rifle',},          
 ```
 
 ## ADD THIS IN qb-core/shared/weapons.lua
